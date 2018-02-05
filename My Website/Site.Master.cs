@@ -11,7 +11,21 @@ namespace My_Website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ActivePage();
+        }
+        /// <summary>
+        /// This method swithes the active title in Nav bar
+        /// </summary>
+        private void ActivePage()
+        {
+            switch (Page.Title)
+            {
+                case "Projects":
+                    projects.Attributes.Add("class", "active");
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
