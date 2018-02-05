@@ -20,8 +20,23 @@ namespace My_Website
         {
             switch (Page.Title)
             {
+                case "Home":
+                    home.Attributes.Add("class", "active");
+                    break;
                 case "Projects":
                     projects.Attributes.Add("class", "active");
+                    break;
+                case "Youtube":
+                    youtube.Attributes.Add("class", "active");
+                    break;
+                case "Twitch":
+                    twitch.Attributes.Add("class", "active");
+                    break;
+                case "Contact":
+                    contact.Attributes.Add("class", "active");
+                    break;
+                case "About":
+                    aboutMe.Attributes.Add("class", "active");
                     break;
                 default:
                     break;
