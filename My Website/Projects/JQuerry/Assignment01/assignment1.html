@@ -1,0 +1,98 @@
+﻿<!--Waynell Lovell 300833478-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>BMU Calculator</title>
+<link href="assignment1-styles.css" rel="stylesheet" type="text/css" />
+<meta content="BMU,Waynell,wlovell,Waynell Lovell,Assignment01" name="keywords" />
+<script src="assignment1.js"></script>
+<style type="text/css">
+</style>
+</head>
+<body>
+<div id="allPage">
+<h1>BMR Calculator</h1>
+<form>
+	<table style="width: 975px">
+		<tr>
+			<td style="width: 444px" class="right">
+	<label id="Gender">Gender:</label></td>
+			<td class="left" colspan="3">
+<select name="Gender" tabindex="1" id="gender" required>
+    <option selected="selected" value="">Select</option>
+	<option value="male">Male</option>
+	<option value="female">Female</option>
+	</select></td>
+		</tr>
+		<tr>
+			<td style="width: 444px" class="right"><label id="Age">Age:</label></td>
+			<td class="left" colspan="3">
+			<input type = "number" id="age" min = "0" max = "99" step = "1" value = "18" name="Age" size="3" tabindex="3"/>
+                  </td>
+		</tr>
+		<tr>
+			<td style="width: 444px" class="right">Unit Types:</td>
+			<td class="left" colspan="3">
+			<input name="Measurements" id="metric" tabindex="4" type="radio" value="metric" style="width: 20px" onclick="Metric()" required checked="checked"/>Metric<input name="Measurements" id="imperial" tabindex="5" type="radio" value="imperial"onclick="Imperial()" required/>Imperial</td>
+		</tr>
+		<tr>
+			<td style="width: 444px" class="right">Your Height</td>
+			<td class="left" colspan="3">
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 444px" class="right">Centimeters<label id="Feet">:</label></td>
+			<td class="left" style="width: 69px">
+			<input name="centimeters" id="centimeters"size="4" tabindex="6" type="number" min="0" max ="999" step = "1" value="0" /></td>
+			<td class="right" style="width: 63px">Inches:</td>
+			<td class="left">
+			<input name="inches" id="inches" size="4" tabindex="11" type="number" min="0" max ="999" step = "1" value="0" style="height: 22px" /></td>
+		</tr>
+		<tr>
+			<td style="width: 444px" class="right">Your Weight</td>
+			<td class="left" colspan="3">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 444px" class="right">Kilograms<label id="Label1">:</label></td>
+			<td class="left">
+			<input name="kilograms" type="number" id="kilograms" min="0" max ="999" step = "1" size="4" tabindex="7" value="0" /></td>
+			<td class="left" style="width: 63px"><label id="Pounds">Pounds:</label></td>
+			<td class="left">
+			<input name="Pounds" type="number" id="pounds" min="0" max ="999" step = "1" size="4" tabindex="13" value="0" /></td>
+		</tr>
+	</table>
+	<fieldset>
+	<legend class="left">Fill Out above before clicking</legend>
+<h4 class="left">Select your activity level:</h4>
+		<p class="left">
+		<input name="Activity_Lvl" id="activity_low" tabindex="15" type="radio" value="low" onclick="javascript:calculate(1.2)"required/>I am a sedentarty(little or no exercise)</p>
+		<p class="left">
+		<input name="Activity_Lvl" id="activity_easy" tabindex="17" type="radio" value="easy" onclick="javascript: calculate(1.375)"required/>I am 
+		lightly active (light exercise or sports 1-3 days per week)</p>
+		<p class="left">
+		<input name="Activity_Lvl" id="activity_medium" tabindex="19" type="radio" value="medium" onclick="javascript: calculate(1.55)"required/>I am 
+		moderately active (moderate exercise or sports 3-5 days per week)</p>
+		<p class="left">
+		<input name="Activity_Lvl" id="activity_hard" tabindex="21" type="radio" value="hard" onclick="javascript: calculate(1.725)"required/>I am 
+		very active (hardexercise or sports 6-7 days per week)</p>
+		<p class="left">
+		<input name="Activity_Lvl" id="activity_veryhard" tabindex="23" type="radio" value="veryhard" onclick="javascript: calculate(1.9)"required/>I am 
+		super active (very hard exercise or sports and a physical job or 2x 
+		training)</p>
+		</fieldset>
+		<input name="Clear" type="reset" value="Clear" tabindex="25" />
+	<br />
+	<br />
+	<textarea name="Response" id="Response" rows="10" tabindex="25" cols="50">Response from server......</textarea></form>
+    <hr { size="4" color="white" }/>
+	<h6>
+	<strong>
+	<marquee id="marquee_speed" scrollamount="4" onmouseover=this.stop(); onmouseout=this.start(); scrolldelay="40">© Copyright Waynell Lovell Student #: 300833478 - Assignment1 - COMP125</marquee>
+	</strong>
+	</h6>
+	<hr { size="4" color="white" }/>
+</div>
+</body>
+</html>

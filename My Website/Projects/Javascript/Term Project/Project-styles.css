@@ -1,0 +1,130 @@
+﻿#allPage {
+	width: 975px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-bottom: 10px;
+}
+#banner {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding: 0px;
+	background-image: url('images/banner.jpg');
+	background-repeat: no-repeat;
+	background-color: #43594C;
+	text-align: right;
+	font-size: medium;
+}
+.Agentimg {
+	padding: 0px;
+	float: right;
+}
+#content {
+	background-color: #465E50;
+	opacity: 1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline overline;
+	color: #DCDCDC;
+	text-transform: uppercase;
+}
+#content a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline line-through blink;
+	color: #DCDCDC;
+}
+#content a {
+	text-decoration: underline;
+	color: #DCDCDC;
+	text-transform: capitalize;
+}
+
+#nav {
+	background-color: #465E50;
+	opacity: 0.8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#footer {
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #465E50;
+	opacity: 0.8;
+}
+.floatright {
+	float: right;
+}
+.float-left {
+	text-align: left;
+}
+body {
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-image: url('images/background.jpg');
+	color: #F5F5F5;
+	background-repeat: repeat;
+	font-weight: bold;
+}
+table {
+	text-align: center;
+}
+#gallery
+{
+ position: relative;}
+#gallery ul
+{
+ list-style-type: none;
+ width: 100px;
+}
+#gallery li
+{
+ display:inline-block;
+ float: left;
+ padding-top: 5px;
+}
+#gallery img
+{
+ border-style: none;
+}
+#gallery a
+{
+ text-decoration: none;
+ font-style: italic;
+ color: #333;
+}
+#gallery span
+{
+ display: none;
+}
+#gallery a:hover span
+{
+ display: block;
+ position: absolute;;
+ top: -40px;
+ left: 150px;
+ text-align: center;
+}
+legend {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #E4E3E3;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset {
+	border-style: solid;
+	border-color: #808080;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+#smile {
+	list-style-image: url('images/smiley face.jpg');
+}
+.padding-left-and-down {
+	padding-left: 2px;
+	padding-top: 358px;
+}
+.padding-left {
+	padding-left: 5px;
+}

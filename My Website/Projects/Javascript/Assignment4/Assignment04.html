@@ -1,0 +1,222 @@
+﻿<!--Waynell Lovell 300833478 Assignemnt 05-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Tennis Club Membership</title>
+<meta content="Assignment04,Web Design,300833478,Waynell Lovell" name="keywords" />
+<link href="Assignment04-styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+</style>
+<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'images/button9.gif',/*url*/'images/buttonA.gif')">
+<div id="allPage">
+<p><a href="../index.html">
+<img alt="tennis court" height="250" src="images/logo.jpg" width="975"/></a></p>
+<h2>Heron park Tennis Club</h2>
+<h3>Membership Application 2015 Season</h3>
+<form action="mailto:wlovell2@my.centennialcollege.ca.?subject=Assignemnt 4" method="post" class="lefttext">
+	<table style="width: 975px" class="tables">
+		<tr class="center">
+			<td style="width: 255px">Surname&nbsp;<br />
+			<strong>(Please Print)</strong></td>
+			<td>FirstName&nbsp;</td>
+			<td class="txtsmall"><span class="txtxsmall">Gender</span><br />
+			M/F&nbsp;</td>
+			<td style="width: 127px">Phone #&nbsp;</td>
+			<td>Date Of Birth&nbsp;<br />
+			&nbsp;&nbsp;&nbsp;
+			D/M/Year</td>
+		</tr>
+		<tr class="center">
+			<td style="width: 255px"><input name="txtSurname" size="25" tabindex="1" type="text" /></td>
+			<td><input name="txtFName" size="25" tabindex="3" type="text" /></td>
+			<td><input name="txtGender" size="1" tabindex="5" type="text" /></td>
+			<td style="width: 127px"><input name="txtPhoneNum" size="11" tabindex="7" type="tel" placeholder="###-###-####"/></td>
+			<td rowspan="3">&nbsp;</td>
+		</tr>
+		<tr class="center">
+			<td style="width: 255px">
+			<input name="txtSurname2" size="25" tabindex="15" type="text" /></td>
+			<td><input name="txtFName2" size="25" tabindex="17" type="text" /></td>
+			<td><input name="txtGender2" size="1" tabindex="19" type="text" /></td>
+			<td style="width: 127px">
+			<input name="txtPhoneNum2" size="11" tabindex="21" type="tel" placeholder="###-###-####" /></td>
+		</tr>
+		<tr>
+			<td style="width: 255px" class="center">Juniors&nbsp;<br />
+			<span class="txtsmall">(17 and under as of 1/1/2015)</span></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="center">
+			<td style="width: 255px"><input name="txtJSurname" size="25" tabindex="31" type="text" /></td>
+			<td><input name="txtJFName" size="25" tabindex="33" type="text" /></td>
+			<td><input name="txtJGender" size="1" tabindex="35" type="text" /></td>
+			<td style="width: 127px">
+			<input name="txtJPhoneNum" size="11" tabindex="37" type="tel" placeholder="###-###-####"/></td>
+			<td><input name="txtJDate" type="date" tabindex="40"/></td>
+		</tr>
+		<tr class="center">
+			<td style="width: 255px">
+			<input name="txtJSurname2" size="25" tabindex="45" type="text" /></td>
+			<td><input name="txtJFName2" size="25" tabindex="47" type="text" /></td>
+			<td><input name="txtJGender2" size="1" tabindex="49" type="text" /></td>
+			<td style="width: 127px">
+			<input name="txtJPhoneNum2" size="11" tabindex="51" type="tel" placeholder="###-###-####"/></td>
+			<td><input name="txtJDate2" type="date" tabindex="53"/></td>
+		</tr>
+		<tr class="center">
+			<td style="width: 255px; height: 26px;">
+			<input name="txtJSurname3" size="25" tabindex="59" type="text" /></td>
+			<td style="height: 26px"><input name="txtJFName3" size="25" tabindex="61" type="text" /></td>
+			<td style="height: 26px"><input name="txtJGender3" size="1" tabindex="63" type="text" /></td>
+			<td style="width: 127px; height: 26px;">
+			<input name="txtJPhoneNum3" size="11" tabindex="65" type="tel" placeholder="###-###-####"/></td>
+			<td style="height: 26px">
+			<input name="txtJDate3" type="date" tabindex="68"/></td>
+		</tr>
+		<tr>
+			<td class="lefttext" colspan="2">Address:<br />
+			<textarea cols="50" name="txtAddress" rows="1" tabindex="73"></textarea><br />
+			PostalCode:<input name="txtPostalCode" type="text" size="6" tabindex="75" /></td>
+			<td></td>
+			<td colspan="2" class="lefttext">Email&nbsp;Address(<strong>Please Print</strong>)<br />
+			<input name="txtEmail" size="50" tabindex="77" type="email" placeholder="Example@hotmail.com" required /><br />
+			</td>
+		</tr>
+	</table>
+	<h3>Please Select membership Type</h3>
+	<table style="width: 975px" class="tables">
+		<tr class="center">
+			<td>Type</td>
+			<td>Early Bird<br />
+			Pre Mar 31st</td>
+			<td>Regular<br />
+			Received after Mar 31st</td>
+			<td># of Memberships</td>
+			<td>Sub-Total Fee</td>
+		</tr>
+		<tr>
+			<td class="lefttext">
+			<input name="Chkfamily" tabindex="78" type="checkbox" value="Family" />Family*</td>
+			<td class="center">$185</td>
+			<td class="center">$195</td>
+			<td class="center">
+			<input name="FamilyMember" size="1" tabindex="79" type="text" /></td>
+			<td class="center">
+			<input name="FamilySub" size="5" tabindex="81" type="text" /></td>
+		</tr>
+		<tr>
+			<td class="lefttext" style="height: 22px">
+			<input class="ContactUs" name="ChkAdult" tabindex="82" type="checkbox" value="Adult" />Adult</td>
+			<td class="center" style="height: 22px">$75</td>
+			<td class="center" style="height: 22px">$80</td>
+			<td class="center" style="height: 22px">
+			<input name="AdultMem" size="1" tabindex="83" type="text" /></td>
+			<td class="center" style="height: 22px">
+			<input name="AdultSub" size="5" tabindex="85" type="text" /></td>
+		</tr>
+		<tr>
+			<td class="lefttext">
+			<input name="ChkJunior" tabindex="86" type="checkbox" value="Junior" />Junior**</td>
+			<td class="center">$40</td>
+			<td class="center">$45</td>
+			<td class="center">
+			<input name="Junior" size="1" tabindex="87" type="text" /></td>
+			<td class="center">
+			<input name="JuniorSub" size="5" tabindex="89" type="text" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><strong>TOTAL FEE</strong></td>
+			<td></td>
+		</tr>
+	</table>
+	<p class="lefttext">*Parents and their children under 18 or up to 23 if enrolled in college or university</p>
+	<p class="lefttext">**Junior membership includes 8 one hour lessons during May and June. Various fun activities throughout the summer.</p>
+	<table style="width: 100%">
+		<tr>
+			<td class="ContactUs" style="width: 239px">If you have any Questions</td>
+			<td>
+			<a href="http://www.heronparktennis.com/site2/index.php?option=com_contact&amp;view=category&amp;catid=12&amp;Itemid=58" target="_blank">
+			<img id="img1" alt="Contact Us" height="25" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/buttonA.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button8.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/button9.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button9.gif')" src="images/button8.gif" style="border: 0" width="125" /><!-- MSComment="ibutton" fp-style="fp-btn: Corporate 4; fp-transparent: 1" fp-title="Contact Us" --></a></td>
+		</tr>
+	</table>
+	<p class="lefttext">Please make Cheque payable to <strong>Heron Park Tennis 
+	Club</strong> and mail to <strong>Heron Park Tennis Club, 292 Manse Rd, 
+	Toronto, On, M1E 3V4.</strong></p>
+	<table style="width: 975px" class="tables">
+		<tr>	
+			<td style="height: 72px" class="cleartables" colspan="4">
+	<h3 class="center">Payment Options</h3>
+			</td>
+		</tr>
+		<tr>	
+			<td style="height: 72px" class="cleartables">Paid by Credit<br />
+			<input name="PB" tabindex="91" type="radio" value="Cash" required/></td>
+			<td style="width: 254px; height: 72px;">
+			<img alt="credit cards" height="50" longdesc="mastercard,visa and other payment methods by card" src="images/cards.png" width="180" /></td>
+			<td style="height: 72px">Paid By PayPal<br />
+			<input name="PB" tabindex="93" type="radio" value="Cheque" /></td>
+			<td style="height: 72px"><img alt="Paypal logo" src="images/paypal.gif" /></td>
+		</tr>
+	</table>
+&nbsp;<p class="center">Emergency Contact(Voluntary)</p>
+		<p>Name:<input name="txtEmergencyName" type="text" size="50" tabindex="97" /> PhoneNumber:<input name="txtEmergencyNumber" type="tel" size="11" tabindex="99" placeholder="###-###-####" style="width: 120px" /></p>
+	<p class="center"><strong>Notice</strong></p>
+	<ul>
+		<li>The Club will not issue a refund after commencement of 
+		season.
+		</li>
+		<li>By signing this application you agree to abide by the rules of the Club as posted in teh club house.</li>
+		<li>By signing this form you gran the Club permission to complie a Members List and display your name,address,e-mail and phone number in teh clubhouse for the convenience of other members who may wish to contact you for the purpose of playing tennis. The Members List will be sent to the City of Toronto.</li>
+		<li>By providing an emergency contact name and phone number you grant the Club permission to display this information in teh clubhouse for use in emergencies.</li>
+		<li>I/we release Heron Park Tennis club and their executive from any claims for damages arising from accident, injury or any other mishap due to my/our participation in the club's activities.</li>
+	</ul>
+	<p class="center">
+	<input name="CkAccept" type="checkbox" required/>I/We Accept the terms and conditions</p>
+	
+	<table class="center" style="width: 100%">
+		<tr>
+			<td style="width: 470px" class="cleartables">
+	
+	<input name="CmdSubmit" style="width: 208px; height: 46px" tabindex="105" type="submit" value="Complete and Send Application" /></td>
+			<td><input name="CmdReset" style="width: 208px; height: 46px" tabindex="107" type="reset" value="New Membership Application"/></td>
+		</tr>
+	</table>
+	</form>
+	<h6>&copy; Copyright Waynell Lovell Student #: 300833478 - COMP213 - Assignment04 - Web Interface</h6>
+</div>
+</body>
+
+</html>

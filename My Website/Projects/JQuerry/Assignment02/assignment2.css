@@ -1,0 +1,14 @@
+﻿td {
+	border: 1px solid #FFFFFF;
+}
+body {
+	color: #FFFFFF;
+	background-image: url('images/background.jpg');
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#allPage {
+	width: 975px;
+	margin-left: auto;
+	margin-right: auto;
+}

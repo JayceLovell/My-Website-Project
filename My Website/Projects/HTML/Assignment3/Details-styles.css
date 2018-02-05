@@ -1,0 +1,22 @@
+﻿body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #000000;
+	background-color: #000000;
+}
+a:hover {
+	text-decoration: underline overline blink;
+	color: #808080;
+}
+h1 {
+	background-color: #DE0018;
+	text-align: center;
+}
+a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+h6 {
+	background-color: #FF0000;
+	text-decoration: underline;
+	text-align: center;
+}

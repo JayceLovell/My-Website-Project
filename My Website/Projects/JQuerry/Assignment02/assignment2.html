@@ -1,0 +1,57 @@
+﻿<!--Waynell Lovell 300833478-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="SHORTCUT ICON" href="images/table.ico"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Table</title>
+<meta content="assignment2,waynell lovell,waynell,300833478" name="keywords"/>
+<link href="assignment2.css" rel="stylesheet" type="text/css"/>
+<script src="assignment2.js"></script>
+<script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'images/button6.gif',/*url*/'images/button7.gif')">
+<div id="allPage">
+<h1>Assignment 2</h1>
+<h4>Rows:<input id="rows" name="UserInputcolumns" type="text" size="4" tabindex="0" value="0"/></h4>
+<h4>Columns:<input id="columns" name="UserInputcolumns" type="text" size="4" tabindex="0" value="0"/></h4>
+<p>Click 
+<img id="img1" onclick="start()" alt="ME" height="11" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/button7.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button5.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'images/button6.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'images/button6.gif')" src="images/button5.gif" style="border: 0" width="20"/><!-- MSComment="ibutton" fp-style="fp-btn: Simple Text 1; fp-font: Verdana, Geneva, Tahoma, sans-serif; fp-font-style: Bold; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #808080; fp-font-color-press: #FFFFFF; fp-transparent: 1; fp-proportional: 0" fp-title="ME" --> to draw tabel.</p>
+</div>
+<table id="TheTable">
+</table>
+    <hr {={ size="4" color="white" }=} />
+    <h6>
+        <strong>
+            <marquee id="marquee_speed" scrollamount="4" onmouseover=this.stop(); onmouseout=this.start(); scrolldelay="40">© Copyright Waynell Lovell Student #: 300833478 - Assignment2 - COMP125</marquee>
+        </strong>
+    </h6>
+    <hr {={ size="4" color="white" }=} />
+</body>
+
+</html>

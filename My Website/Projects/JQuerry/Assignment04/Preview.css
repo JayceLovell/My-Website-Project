@@ -1,0 +1,16 @@
+﻿body {
+	background-image: url('images/Preview Background.jpg');
+	background-repeat: no-repeat;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: #FFFFFF;
+}
+table {
+	position: fixed;
+	top: 30px;
+	left: 195px;
+}
+label {
+	color: #FFFFFF;
+	font-size: xx-large;
+	font-weight: bolder;
+}
