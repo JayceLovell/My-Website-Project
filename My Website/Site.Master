@@ -1,26 +1,30 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="My_Website.SiteMaster" %>
 
 <!DOCTYPE html>
-
+<!--Name: Jayce Lovell -->
+<!--Date: 05/02/2018-->
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <meta name="viewport" cotent="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is Jayce Lovell's Website Site/Portfolio. Can see which Projects,Contact info and All other information" />
+    <meta property="og:title" content="Jayce Lovell's WebSite" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Jayce Lovell's Website" />
+    <title><%: Page.Title %></title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Assets/Images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
 <body>
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
@@ -40,7 +44,7 @@
         </asp:ScriptManager>
 
         <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>

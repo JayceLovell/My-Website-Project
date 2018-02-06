@@ -13,5 +13,15 @@ namespace My_Website
         {
 
         }
+
+        protected void ZoroPlayButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Project/Jquery/Project/Project.html");
+        }
+
+        protected void SnakeGamePlayButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Project/Jquery/Snake_Game/snake.html");
+        }
     }
 }

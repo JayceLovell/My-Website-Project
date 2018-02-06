@@ -1,0 +1,15 @@
+﻿.Project_Div {
+    text-align: center;
+}
+.Project_Div img {
+        max-width: 100%;
+        margin: auto;
+        display: block;
+    }
+.dropdown-menu {
+    left: 50% !important;
+    margin-left: -40px;
+}
+body{
+    background-color:black;
+}
