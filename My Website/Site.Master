@@ -75,7 +75,7 @@
         <!--- Footer Bar --->
             <footer role="contentinfo">
                 <nav class="navbar navbar-inverse navbar-fixed-bottom">
-                    <h4>&copy; Jayce D Lovell Website. <%:DateTime.Now.Date.Year%></h4>
+                    <h4 class="font">&copy; Jayce D Lovell Website. <%:DateTime.Now.Date.Year%></h4>
                 </nav>
             </footer>
     </form>

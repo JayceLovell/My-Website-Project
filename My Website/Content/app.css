@@ -13,3 +13,11 @@
 body{
     background-color:black;
 }
+.font{
+    color: white;
+}
+.youtube{
+    color: darkred;
+    font-size:xx-large;
+    text-align:center;
+}
