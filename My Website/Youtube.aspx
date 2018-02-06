@@ -5,8 +5,12 @@
             <div class="col-mid-offset-4 col-md-12">
                 <h1 class="youtube">My Youtube Channel</h1>
                 <div class="embed-responsive embed-responsive-16by9">
-                     <iframe id="YoutubeVideos" runat="server" title="Waynell_17 Channel Video" class="embed-responsive-item" src=""></iframe>
+                     <iframe id="YoutubeVideos" runat="server" title="Waynell_17 Channel Video" class="embed-responsive-item" src="blank"></iframe>
                 </div>
+                <br />
+                <div class="g-ytsubscribe" data-channelid="UCmdnoHC7EngDvvRWQL-xiNw" data-layout="full" data-theme="dark" data-count="hidden"></div>
+                <br />
+                <br />
             </div>
         </div>
         <br />

@@ -6,7 +6,7 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <meta name="viewport" cotent="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is Jayce Lovell's Website Site/Portfolio. Can see which Projects,Contact info and All other information" />
     <meta property="og:title" content="Jayce Lovell's WebSite" />
     <meta property="og:type" content="website"/>
@@ -79,5 +79,7 @@
                 </nav>
             </footer>
     </form>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="Scripts/app.js"></script>
 </body>
 </html>

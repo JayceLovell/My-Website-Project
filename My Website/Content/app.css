@@ -1,4 +1,5 @@
-﻿.Project_Div {
+﻿/* custom css goes here */
+.Project_Div {
     text-align: center;
 }
 .Project_Div img {
@@ -21,10 +22,16 @@ body{
     font-size:xx-large;
     text-align:center;
 }
-#youtube > .active > a,
-#youtube > .active > a:hover ,
-#youtube > .active > a:focus
+li#youtube > a:active,
+li#youtube > a:focus,
+li#youtube > a:hover
 {
-    color:darkred;
-    background-color: #080808;
+    color:darkred !important;
+    background-color:black !important;
+}
+li#twitch > a:active,
+li#twitch > a:focus,
+li#twitch > a:hover{
+    color:rebeccapurple !important;
+    background-color:black !important;
 }
