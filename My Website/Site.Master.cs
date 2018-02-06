@@ -27,7 +27,7 @@ namespace My_Website
                     projects.Attributes.Add("class", "active");
                     break;
                 case "Youtube":
-                    youtube.Attributes.Add("class", "active");
+                    youtube.Attributes.Add("class", "activee");
                     break;
                 case "Twitch":
                     twitch.Attributes.Add("class", "active");

@@ -21,3 +21,10 @@ body{
     font-size:xx-large;
     text-align:center;
 }
+#youtube > .active > a,
+#youtube > .active > a:hover ,
+#youtube > .active > a:focus
+{
+    color:darkred;
+    background-color: #080808;
+}
