@@ -129,6 +129,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\Me.jpg" />
     <Content Include="Assets\Images\favicon.ico" />
     <Content Include="Assets\Images\Snake_Game.JPG" />
     <Content Include="Assets\Images\Zoro_Game.JPG" />
