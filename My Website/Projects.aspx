@@ -1,13 +1,15 @@
 ﻿<%@ Page Title="Projects" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Projects.aspx.cs" Inherits="My_Website.Projects" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
-        <div class="row">
-            <h1>Projects</h1>
-            <div class="Project_Div">
+    <div class="container, projectbody">
+        <div class="row,center">
+            <h1 class="projectheader">Projects</h1>
+            <div class="center">
                 <h2 class="center">HTML/Javascript Projects</h2>
                 <img src="Assets/Images/Zoro_Game.JPG" alt="Zoro Game Preview" />
                 <p>It is a clicking game, One Piece themed based. Where you are Zoro and you have to kill the Marines by clicking on them.</p>
                 <asp:Button Class="btn btn-sm" runat="server" ID="ZoroPlayButton" OnClick="ZoroPlayButton_Click" Text="Click Here To Play" ToolTip="I will take you to the game."/>
+                <br />
+                <br />
                 <div class="dropup">
                     <button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Other HTML/Javascript Projects
                     <span class="caret"></span></button>
@@ -23,11 +25,13 @@
                 </div>    
             </div>
             <hr />
-            <div class="Project_Div">
+            <div class="center">
                 <h2 class="center">JQuery Projects</h2>
                 <img src="Assets/Images/Snake_Game.JPG" />
                 <p>Simple game of snake</p>
                 <asp:Button Class="btn btn-sm" runat="server" ID="SnakeGamePlayButton" OnClick="SnakeGamePlayButton_Click" Text="Click Here To Play" ToolTip="I will take you to the game." />
+                <br />
+                <br />
                 <div class="dropup">
                     <button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Other Jquery Projects
                         <span class="caret"></span>

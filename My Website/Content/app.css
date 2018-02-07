@@ -1,5 +1,5 @@
 ﻿/* custom css goes here */
-.Project_Div {
+.center {
     text-align: center;
 }
 .Project_Div img {
@@ -19,19 +19,59 @@ body{
 }
 .youtube{
     color: darkred;
-    font-size:xx-large;
     text-align:center;
 }
-li#youtube > a:active,
-li#youtube > a:focus,
-li#youtube > a:hover
-{
-    color:darkred !important;
-    background-color:black !important;
+.twitchheader {
+    color: rebeccapurple;
+    text-align: center;
 }
-li#twitch > a:active,
-li#twitch > a:focus,
-li#twitch > a:hover{
+.projectheader {
+    color:darkgreen;
+    text-align:center;
+}
+.projectbody{
+    color:darkgreen;
+}
+#youtube > a:active,
+#youtube > a:focus,
+#youtube > a:hover {
+    color: darkred !important;
+}
+#twitch > a:active,
+#twitch > a:focus,
+#twitch > a:hover{
     color:rebeccapurple !important;
-    background-color:black !important;
 }
+#projects > a:active,
+#projects > a:focus,
+#projects > a:hover{
+    color:darkgreen;
+}
+.responsive {
+    position: relative;
+    padding-bottom: 56.2%;
+    height: 0;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.twitchvideo {
+    position: relative;
+    padding-bottom: 56.2%;
+    height: 0;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.twitchvideo iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
+.responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+    }
